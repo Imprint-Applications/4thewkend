@@ -1,2 +1,0 @@
-<?php
-$varSecret = '6Ld-VNEZAAAAALPWLp7Ly9LAiRYAM9TM3Bxk5C4N';

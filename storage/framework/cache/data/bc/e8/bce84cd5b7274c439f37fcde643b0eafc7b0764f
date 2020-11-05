@@ -1,0 +1,21 @@
+1604575173a:1:{s:19:"localMenu/items.php";a:5:{s:8:"fileName";s:19:"localMenu/items.php";s:5:"mTime";i:1601646659;s:7:"content";s:322:"<div class="menu-items">
+    <?php if (count($menuItems)) { ?>
+        <?php foreach ($menuItems as $menuItem) { ?>
+            <?= partial('@item', ['menuItem' => $menuItem]); ?>
+        <?php } ?>
+    <?php }
+    else { ?>
+        <p><?= lang('igniter.local::default.text_empty'); ?></p>
+    <?php } ?>
+</div>
+";s:6:"markup";s:322:"<div class="menu-items">
+    <?php if (count($menuItems)) { ?>
+        <?php foreach ($menuItems as $menuItem) { ?>
+            <?= partial('@item', ['menuItem' => $menuItem]); ?>
+        <?php } ?>
+    <?php }
+    else { ?>
+        <p><?= lang('igniter.local::default.text_empty'); ?></p>
+    <?php } ?>
+</div>
+";s:4:"code";N;}}

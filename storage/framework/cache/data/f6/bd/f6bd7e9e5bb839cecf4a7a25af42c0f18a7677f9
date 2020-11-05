@@ -1,0 +1,11 @@
+1604575951a:1:{s:11:"scripts.php";a:5:{s:8:"fileName";s:11:"scripts.php";s:5:"mTime";i:1601646659;s:7:"content";s:210:"<?= get_script_tags(); ?>
+<?= $this->theme->ga_tracking_code; ?>
+<?php if (!empty($this->theme->custom_js)) { ?>
+    <?= '<script type="text/javascript">'.$this->theme->custom_js.'</script>' ?>
+<?php } ?>
+";s:6:"markup";s:210:"<?= get_script_tags(); ?>
+<?= $this->theme->ga_tracking_code; ?>
+<?php if (!empty($this->theme->custom_js)) { ?>
+    <?= '<script type="text/javascript">'.$this->theme->custom_js.'</script>' ?>
+<?php } ?>
+";s:4:"code";N;}}

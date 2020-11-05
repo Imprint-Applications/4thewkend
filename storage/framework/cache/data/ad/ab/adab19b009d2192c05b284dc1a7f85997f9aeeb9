@@ -1,0 +1,25 @@
+1604575951a:1:{s:8:"head.php";a:5:{s:8:"fileName";s:8:"head.php";s:5:"mTime";i:1601646659;s:7:"content";s:558:"<?= get_metas(); ?>
+<meta name="csrf-token" content="<?= csrf_token() ?>">
+<?php if (trim($favicon = $this->theme->favicon, '/')) { ?>
+    <link href="<?= uploads_url($favicon); ?>" rel="shortcut icon" type="image/ico">
+<?php }
+else { ?>
+    <?= get_favicon(); ?>
+<?php } ?>
+<title><?= sprintf(lang('main::lang.site_title'), lang(get_title()), setting('site_name')); ?></title>
+<?= get_style_tags(); ?>
+<?php if (!empty($this->theme->custom_css)) { ?>
+    <style type="text/css" id="custom-css"><?= $this->theme->custom_css; ?></style>
+<?php } ?>";s:6:"markup";s:558:"<?= get_metas(); ?>
+<meta name="csrf-token" content="<?= csrf_token() ?>">
+<?php if (trim($favicon = $this->theme->favicon, '/')) { ?>
+    <link href="<?= uploads_url($favicon); ?>" rel="shortcut icon" type="image/ico">
+<?php }
+else { ?>
+    <?= get_favicon(); ?>
+<?php } ?>
+<title><?= sprintf(lang('main::lang.site_title'), lang(get_title()), setting('site_name')); ?></title>
+<?= get_style_tags(); ?>
+<?php if (!empty($this->theme->custom_css)) { ?>
+    <style type="text/css" id="custom-css"><?= $this->theme->custom_css; ?></style>
+<?php } ?>";s:4:"code";N;}}

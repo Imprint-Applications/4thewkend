@@ -1,0 +1,23 @@
+1604575173a:1:{s:21:"cartBox/container.php";a:5:{s:8:"fileName";s:21:"cartBox/container.php";s:5:"mTime";i:1601646659;s:7:"content";s:379:"<div class="<?= (!$pageIsCart) ? 'affix-cart d-none d-sm-block' : ''; ?>">
+    <div class="panel panel-cart">
+        <div class="panel-body">
+            <div id="local-control">
+                <?= partial('localBox::control'); ?>
+            </div>
+
+            <?= partial('cartBox::default'); ?>
+        </div>
+    </div>
+</div>
+<?= partial('cartBox::mobile'); ?>";s:6:"markup";s:379:"<div class="<?= (!$pageIsCart) ? 'affix-cart d-none d-sm-block' : ''; ?>">
+    <div class="panel panel-cart">
+        <div class="panel-body">
+            <div id="local-control">
+                <?= partial('localBox::control'); ?>
+            </div>
+
+            <?= partial('cartBox::default'); ?>
+        </div>
+    </div>
+</div>
+<?= partial('cartBox::mobile'); ?>";s:4:"code";N;}}
