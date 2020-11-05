@@ -1,0 +1,107 @@
+#pageNav {
+  height: 100vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  z-index: 5;
+  position: absolute;
+  overflow: hidden;
+}
+
+.pageNav {
+  position: absolute;
+  right: -100%;
+  -webkit-transition: all 1s ease-out;
+  transition: all 1s ease-out;
+}
+
+.pageNav.open {
+  right: 0;
+}
+
+.pagenavContent {
+  height: 100vh;
+  width: 100%;
+}
+
+.line {
+  width: 35px;
+  height: 5px;
+  background: #74CC34;
+  margin: 5px;
+}
+
+.nav-links.ul {
+  width: 100%;
+  height: 100vh;
+  list-style: none;
+  background: #232323;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.nav-links.ul li {
+  text-align: center;
+}
+
+.nav-links.ul li a {
+  font-size: 2rem;
+}
+
+.nav-links.ul.open {
+  width: 100%;
+  height: 100vh;
+  right: 0;
+  -webkit-transition: all 1s ease-out;
+  transition: all 1s ease-out;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.hamburger {
+  position: absolute;
+  right: 0;
+  cursor: pointer;
+}
+
+.navBarLink {
+  color: #FFFFFF;
+  -webkit-transition: 0.5s all ease-out;
+  transition: 0.5s all ease-out;
+}
+
+.navBarLink:hover {
+  text-decoration: none;
+  color: #74CC34;
+}
+
+@media (min-width: 1920px) {
+  .hamburger {
+    position: relative;
+  }
+}
+/*# sourceMappingURL=nav.css.map */

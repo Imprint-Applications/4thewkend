@@ -1,0 +1,11 @@
+[23-Sep-2020 15:16:58 UTC] PHP Notice:  Undefined index: g-recaptcha-response in /home/robsr2d2/public_html/imprint/public/request.php on line 13
+[23-Sep-2020 15:16:58 UTC] PHP Notice:  Undefined variable: recaptchaResponse in /home/robsr2d2/public_html/imprint/public/request.php on line 15
+[28-Sep-2020 15:04:53 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/robsr2d2/public_html/imprint/public/send.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/robsr2d2/public_html/imprint/public/send.php on line 6
+[28-Sep-2020 15:06:14 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/robsr2d2/public_html/imprint/public/send.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/robsr2d2/public_html/imprint/public/send.php on line 6
+[28-Sep-2020 15:41:22 UTC] PHP Notice:  Undefined variable: recaptchaResponse in /home/robsr2d2/public_html/imprint/public/send.php on line 7
