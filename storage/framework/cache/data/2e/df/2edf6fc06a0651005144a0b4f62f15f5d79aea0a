@@ -1,0 +1,39 @@
+1606674624a:1:{s:17:"account\order.php";a:11:{s:8:"fileName";s:17:"account\order.php";s:5:"mTime";i:1606666254;s:7:"content";s:511:"---
+title: main::lang.account.orders.title
+layout: default
+permalink: /account/order/:hash?
+
+'[account]':
+
+'[orderPage]':
+
+'[localReview]':
+---
+<div class="container">
+    <div class="row py-5">
+        <?php if ($customer) { ?>
+            <div class="col-sm-3">
+            <?= partial('account::sidebar'); ?>
+        </div>
+        <?php } ?>
+
+        <div class="col-sm-9<?= $customer ? '' : ' m-auto' ?>">
+            <?= component('orderPage'); ?>
+        </div>
+    </div>
+</div>
+";s:6:"markup";s:358:"
+<div class="container">
+    <div class="row py-5">
+        <?php if ($customer) { ?>
+            <div class="col-sm-3">
+            <?= partial('account::sidebar'); ?>
+        </div>
+        <?php } ?>
+
+        <div class="col-sm-9<?= $customer ? '' : ' m-auto' ?>">
+            <?= component('orderPage'); ?>
+        </div>
+    </div>
+</div>
+";s:4:"code";N;s:5:"title";s:31:"main::lang.account.orders.title";s:6:"layout";s:7:"default";s:9:"permalink";s:21:"/account/order/:hash?";s:9:"[account]";N;s:11:"[orderPage]";N;s:13:"[localReview]";N;}}

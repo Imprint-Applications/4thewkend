@@ -228,4 +228,5 @@
   'Admin\\FormWidgets\\Repeater' => 'app/admin/formwidgets/Repeater.php',
   'Admin\\FormWidgets\\MapView' => 'app/admin/formwidgets/MapView.php',
   'Admin\\Models\\Assignable_logs_model' => 'app/admin/models/Assignable_logs_model.php',
+  'Admin\\Controllers\\dashboard' => 'app\\admin\\controllers\\dashboard.php',
 );
